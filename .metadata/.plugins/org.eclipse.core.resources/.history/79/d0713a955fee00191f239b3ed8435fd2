@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Free CRM Test Suit" verbose="1" >
+  <test name="First Test Suit" >
+  <listeners>
+		<listener class-name="com.crm.qa.ExtendReport.ExtentReporterNG" />
+	</listeners>
+	
+    <classes>
+      <class name="com.crm.qa.testcases.LoginTestCase"/>
+      <class name="com.crm.qa.testcases.HomePageTestCase"/>
+      <class name="com.crm.qa.testcases.ContactPageTest"/>
+    </classes>
+ </test>
+</suite>

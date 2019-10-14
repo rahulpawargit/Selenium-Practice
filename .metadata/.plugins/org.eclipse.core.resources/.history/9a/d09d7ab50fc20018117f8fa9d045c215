@@ -1,0 +1,41 @@
+package ArrayListP;
+
+import java.util.ArrayList;
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		ArrayList ar= new ArrayList();
+		ar.add(10);
+		ar.add(20);
+		ar.add(30);
+		
+		System.out.println(ar.size());
+		ar.add(60);
+		ar.add(60);
+		
+		System.out.println(ar.size());
+		
+		for(int i=0; i<ar.size();i++)
+		{
+			System.out.println(ar.get(i));
+			
+		}
+		
+		System.out.println("Indev Value" +ar.get(1));
+		
+		ArrayList<Integer> ar2= new ArrayList<Integer>();
+		
+		ar2.add(122);
+		ar2.add(122);
+		
+		System.out.println(ar2.get(2));
+		
+		
+		
+	}
+
+}

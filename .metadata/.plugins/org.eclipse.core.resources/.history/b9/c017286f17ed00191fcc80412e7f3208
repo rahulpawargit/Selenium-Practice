@@ -1,0 +1,45 @@
+package com.qa.pages;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.qa.base.TestBase;
+
+public class Checkout_process extends TestBase{
+	
+	//PageFactory
+	
+	@FindBy(xpath="//input[@id='twotabsearchtextbox' and @name='field-keywords']")
+	WebElement searchbox;
+	
+	@FindBy(xpath="//input[@type='submit' and @tabindex='10']")
+	WebElement searchitem;
+	
+	@FindBy(xpath="//img[@class='mediaCentralImage imageContainer__image'][1]")
+	WebElement selectitem;
+	
+	//intilization webelement
+	public Checkout_process()
+	{
+		PageFactory.initElements(driver, this);
+	}
+
+	//Actons
+//	public String ValidateTitle()
+//	{
+//		return driver.getTitle();
+//	}
+	
+	
+	
+	public Addtocart browse(String item) throws InterruptedException
+	{
+		searchbox.sendKeys(item);
+		searchbox.sendKeys("watches for men");
+		Thread.sleep(10);
+		searchitem.click();
+		selectitem.click();
+		return new Addtocart();
+	}
+}

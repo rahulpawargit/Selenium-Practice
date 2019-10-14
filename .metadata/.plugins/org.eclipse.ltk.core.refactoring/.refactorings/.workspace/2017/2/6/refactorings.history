@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Data_Driven_Framework&apos;" deleteContents="false" description="Delete resource &apos;Data_Driven_Framework&apos;" element1="/Data_Driven_Framework" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1486421729351"/>
+</session>

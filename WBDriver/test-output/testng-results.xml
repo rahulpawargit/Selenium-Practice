@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35679" started-at="2019-01-02T06:18:59Z" finished-at="2019-01-02T06:19:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35679" started-at="2019-01-02T06:18:59Z" finished-at="2019-01-02T06:19:34Z">
+      <class name="com.QED42Assesment.Assement1">
+        <test-method status="PASS" signature="BrowserSetup()[pri:0, instance:com.QED42Assesment.Assement1@3bfdc050]" name="BrowserSetup" is-config="true" duration-ms="4881" started-at="2019-01-02T06:18:59Z" finished-at="2019-01-02T06:19:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method status="PASS" signature="SelectOrangeDress()[pri:1, instance:com.QED42Assesment.Assement1@3bfdc050]" name="SelectOrangeDress" duration-ms="12067" started-at="2019-01-02T06:19:04Z" finished-at="2019-01-02T06:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectOrangeDress -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.QED42Assesment.Assement1@3bfdc050]" name="closebrowser" is-config="true" duration-ms="203" started-at="2019-01-02T06:19:16Z" finished-at="2019-01-02T06:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="BrowserSetup()[pri:0, instance:com.QED42Assesment.Assement1@3bfdc050]" name="BrowserSetup" is-config="true" duration-ms="3594" started-at="2019-01-02T06:19:16Z" finished-at="2019-01-02T06:19:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method status="PASS" signature="SelectPolyster()[pri:2, instance:com.QED42Assesment.Assement1@3bfdc050]" name="SelectPolyster" duration-ms="14540" started-at="2019-01-02T06:19:20Z" finished-at="2019-01-02T06:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectPolyster -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.QED42Assesment.Assement1@3bfdc050]" name="closebrowser" is-config="true" duration-ms="356" started-at="2019-01-02T06:19:34Z" finished-at="2019-01-02T06:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.QED42Assesment.Assement1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

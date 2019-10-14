@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="webDriver">
+ <test name="WebDriverDemo Witn FF" preserve-order="true">
+  <parameter name="BROWSER" value="FF" />
+  <classes>
+   <class name="com.web.WebDriverDemo" />
+  </classes>
+ </test>
+  <test name="WebDriverDemo with IE" preserve-order="ture">
+  <parameter name="BROWSER" value="IE"></parameter>
+  <classes>
+   <class name="com.web.WebDriverDemo"></class>
+  </classes>
+ </test>
+ <test name="WebDriverDemo with HTML unit" preserve-order="true">
+  <parameter name="BROWSER" value="HU"></parameter>
+  <classes>
+   <class name="com.web.WebDriverDemo"></class>
+  </classes>
+ </test>
+ <test name="WebDriverDemo with chrome" preserve-order="true">
+  <parameter name="BROWSER" value="CH"></parameter>
+  <classes>
+   <class name="com.web.WebDriverDemo"></class>
+  </classes>
+ </test>
+</suite>

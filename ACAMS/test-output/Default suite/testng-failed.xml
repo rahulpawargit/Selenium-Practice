@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="pkg_ACAMS.AdditionalStories">
+        <methods>
+          <include name="ChromeAdditionalStories"/>
+          <include name="setUp"/>
+          <include name="FirefoxAdditionalStories"/>
+          <include name="IEAddtionalStories"/>
+        </methods>
+      </class> <!-- pkg_ACAMS.AdditionalStories -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

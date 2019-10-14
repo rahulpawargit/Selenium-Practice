@@ -1,0 +1,26 @@
+package ArrayListP;
+
+public class Employee {
+	
+	String name;
+	String desg;
+	Integer no;
+	
+	public Employee(String name, String desg, Integer no)
+	{
+		this.name=name;
+		this.desg=desg;
+		this.no=no;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Employee e1= new Employee("Rahul", "QA", 1);
+		
+		
+
+	}
+
+}

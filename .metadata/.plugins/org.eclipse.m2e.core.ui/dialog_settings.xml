@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\Rahul\Testing Docs\Selenium\NavinSeleniumLabs\src\SeleniumBasics\CustomeXpath.java"/>
+			<item value="E:\Rahul\Testing Docs\Selenium"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Amazon_Asg_Automation.Amazon_Asg_Automation"/>
+			<item value="Amazon_Assignment_Automation"/>
+			<item value="amazon_assignment"/>
+			<item value="com.gmail_Login"/>
+			<item value="WordPress_Automation.WordPress_Automation"/>
+			<item value="QED42Assesment.QED42Assesment"/>
+			<item value="FreeCRM2ndProject.FreeCRM2ndProject"/>
+			<item value="FreeCRMBDDFramework.FreeCRMBDDFramework"/>
+			<item value="WBDriver"/>
+			<item value="AndroidTest.AndroidTest"/>
+			<item value="MavenDemoTest.MavenDemoTest"/>
+			<item value="Git"/>
+			<item value="FreeCRMTestAutomation.FreeCRM"/>
+		</list>
+		<list key="groupId">
+			<item value="Amazon_Asg_Automation"/>
+			<item value="Amazon_Assignment_Automation"/>
+			<item value="Gmail_Login_Automation"/>
+			<item value="WordPress_Automation"/>
+			<item value="QED42Assesment"/>
+			<item value="FreeCRM2ndProject"/>
+			<item value="FreeCRMBDDFramework"/>
+			<item value="AndroidTest"/>
+			<item value="TakeScreenshot"/>
+			<item value="LogGenerate"/>
+			<item value="MavenDemoTest"/>
+			<item value="GitRepoDemo"/>
+			<item value="FreeCRMTestAutomation"/>
+		</list>
+		<list key="artifactId">
+			<item value="Amazon_Asg_Automation"/>
+			<item value="Amazon_Assignment_Automation"/>
+			<item value="Gmail_Login_Automation"/>
+			<item value="WordPress_Automation"/>
+			<item value="QED42Assesment"/>
+			<item value="FreeCRM2ndProject"/>
+			<item value="FreeCRMBDDFramework"/>
+			<item value="WBDriver"/>
+			<item value="AndroidTest"/>
+			<item value="TakeScreenshot"/>
+			<item value="LogGenerate"/>
+			<item value="MavenDemoTest"/>
+			<item value="GitRepoDemo"/>
+			<item value="FreeCRM"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

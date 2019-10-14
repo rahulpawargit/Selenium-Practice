@@ -1,0 +1,96 @@
+
+package pkg_ACAMS_LegsandRegs;
+
+import java.util.concurrent.TimeUnit;
+import org.testng.annotations.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+
+public class LRViewOrigionalDocLink{
+  private WebDriver driver;
+
+  @BeforeClass(alwaysRun = true)
+  public void setUp() throws Exception {
+    driver = new FirefoxDriver();
+    driver.manage().window().maximize();
+    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+  }
+
+  @Test
+  public void FFLLPrint() throws Exception 
+  {
+    driver.get("http://acams.dev.asentechllc.net/legs_and_regs/");
+    driver.findElement(By.xpath(".//*[@id='articleArea']/div[1]/div[1]/div/div[2]/h3/a")).click();
+    driver.findElement(By.linkText("Brief")).click();
+    driver.findElement(By.xpath("html/body/div/div/div[3]/div[2]/div[2]/a")).click();
+    
+    String oldwindow=driver.getWindowHandle();
+    
+    for(String newwindow:driver.getWindowHandles())
+    {
+    	driver.switchTo().window(newwindow);
+    	Thread.sleep(2000);
+    }
+    driver.close();
+    
+    driver.switchTo().window(oldwindow);
+    Thread.sleep(2000);
+    driver.close();
+  }
+
+  @Test(priority=1)
+  public void ChmLLPrint() throws Exception 
+  {
+	    System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDriver\\chromedriver_win32\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver= new  ChromeDriver();
+		driver.manage().window().maximize(); 
+    driver.get("http://acams.dev.asentechllc.net/legs_and_regs/");
+    driver.findElement(By.xpath(".//*[@id='articleArea']/div[1]/div[1]/div/div[2]/h3/a")).click();
+    driver.findElement(By.linkText("Brief")).click();
+    driver.findElement(By.xpath("html/body/div/div/div[3]/div[2]/div[2]/a")).click();
+    
+    String oldwindow=driver.getWindowHandle();
+    
+    for(String newwindow:driver.getWindowHandles())
+    {
+    	driver.switchTo().window(newwindow);
+    	Thread.sleep(2000);
+    }
+    driver.close();
+    
+    driver.switchTo().window(oldwindow);
+    Thread.sleep(2000);
+    driver.close();
+  }
+  
+  
+  @Test(priority=2)
+  public void IELLPrint() throws Exception 
+  {
+	     System.setProperty("webdriver.ie.driver","C:\\SeleniumDriver\\IEDriverServer_x64_2.53.1\\IEDriverServer.exe");
+	     WebDriver driver=new InternetExplorerDriver();
+		 driver.manage().window().maximize();
+    driver.get("http://acams.dev.asentechllc.net/legs_and_regs/");
+    driver.findElement(By.xpath(".//*[@id='articleArea']/div[1]/div[1]/div/div[2]/h3/a")).click();
+    driver.findElement(By.linkText("Brief")).click();
+    driver.findElement(By.xpath("html/body/div/div/div[3]/div[2]/div[2]/a")).click();
+    
+    String oldwindow=driver.getWindowHandle();
+    
+    for(String newwindow:driver.getWindowHandles())
+    {
+    	driver.switchTo().window(newwindow);
+    	Thread.sleep(2000);
+    }
+    driver.close();
+    
+    driver.switchTo().window(oldwindow);
+    Thread.sleep(2000);
+    driver.close();
+  }
+
+  
+}

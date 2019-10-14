@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;testng.xml&apos; to &apos;Amazon_Asg_Automation/resources&apos;&#x0D;&#x0A;- Original project: &apos;FreeCRM&apos;&#x0D;&#x0A;- Destination element: &apos;Amazon_Asg_Automation/resources&apos;&#x0D;&#x0A;- Original element: &apos;testng.xml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=Amazon_Asg_Automation/resources" element1="src/main/resources/testng.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1571042990621" units="0" version="1.0"/>
+</session>

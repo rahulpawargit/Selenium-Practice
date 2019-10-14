@@ -1,0 +1,66 @@
+package com.qa.pages;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.qa.base.TestBase;
+
+public class Checkout_process extends TestBase{
+	
+	//PageFactory
+	
+	@FindBy(xpath="//input[@id='twotabsearchtextbox' and @name='field-keywords']")
+	WebElement searchbox;
+	
+	@FindBy(css=".nav-search-submit")
+	WebElement searchitem;
+	
+	@FindBy(xpath="//span[@class='celwidget slot=SEARCH_RESULTS template=SEARCH_RESULTS widgetId=search-results index=0']//img[@class='s-image']")
+	WebElement selectitem;
+	
+	//intilization webelement
+	public Checkout_process()
+	{
+		PageFactory.initElements(driver, this);
+	}
+
+	//Actons
+//	public String ValidateTitle()
+//	{
+//		return driver.getTitle();
+//	}
+	
+	
+	
+	public Addtocart browse(String item) throws InterruptedException
+	{
+		//searchbox.sendKeys(item);
+		searchbox.sendKeys("watches for men");
+		WebElement searchbutton=searchitem;
+		searchbutton.click();
+		//searchitem.click();
+//		List <WebElement> listItems = driver.findElements(By.xpath("//div[contains(@class,'a-section aok-relative s-image-tall-aspect')]//img"));
+//		System.out.println(listItems.size());
+		
+		WebElement myDynamicElement = (new WebDriverWait(driver, 10))
+	              .until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='s-result-list s-search-results sg-row']")));
+
+//	    List<WebElement> findElements = driver.findElements(By.xpath("//span[@class='celwidget slot=SEARCH_RESULTS template=SEARCH_RESULTS widgetId=search-results index=0']//img[@class='s-image']"));
+//	    for (WebElement webElement : findElements)
+//	    {
+//	        System.out.println(webElement.getAttribute("img"));
+//	    }
+	    
+	    
+		//listItems.get(3).click();
+		selectitem.click();
+		Thread.sleep(30);
+		return new Addtocart();
+	}
+}

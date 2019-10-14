@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46220" started-at="2017-05-02T16:55:18Z" finished-at="2017-05-02T16:56:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46220" started-at="2017-05-02T16:55:18Z" finished-at="2017-05-02T16:56:04Z">
+      <class name="firsttestngpackage.IE">
+        <test-method status="PASS" signature="IEAddtionalStories()[pri:0, instance:firsttestngpackage.IE@20e2cbe0]" name="IEAddtionalStories" duration-ms="46199" started-at="2017-05-02T22:25:18Z" finished-at="2017-05-02T22:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IEAddtionalStories -->
+      </class> <!-- firsttestngpackage.IE -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

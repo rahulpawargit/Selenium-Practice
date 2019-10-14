@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="DoctorUnite.FollowPost">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- DoctorUnite.FollowPost -->
+      <class name="DoctorUnite.DoctorUniteLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="ChromeLogin"/>
+        </methods>
+      </class> <!-- DoctorUnite.DoctorUniteLogin -->
+      <class name="DoctorUnite.SharePost">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- DoctorUnite.SharePost -->
+      <class name="DoctorUnite.LikePost">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- DoctorUnite.LikePost -->
+      <class name="DoctorUnite.OpenNewsArticle">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- DoctorUnite.OpenNewsArticle -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

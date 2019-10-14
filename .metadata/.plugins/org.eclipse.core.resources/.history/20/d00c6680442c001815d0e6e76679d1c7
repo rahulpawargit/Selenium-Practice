@@ -1,0 +1,9 @@
+package openbrs;
+
+import org.testng.annotations.Test;
+
+public class thinkpie {
+  @Test
+  public void f() {
+  }
+}
