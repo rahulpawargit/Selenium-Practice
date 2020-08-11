@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Amazon Checkout Process" verbose="1" >
-  <test name="First Test Suit" >
-  <listeners>
-		<listener class-name="com.qa.ExtendReport.ExtentReporterNG" />
-	</listeners>
-	
+   <test name="First Test">
     <classes>
       <class name="com.qa.testcases.test_checkout"/>
     </classes>

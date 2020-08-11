@@ -5,7 +5,8 @@
     <classes>
       <class name="com.qa.testcases.test_checkout">
         <methods>
-          <include name="LoginPageTetTitle"/>
+          <include name="searchItem"/>
+          <include name="teardown"/>
           <include name="TestSetup"/>
         </methods>
       </class> <!-- com.qa.testcases.test_checkout -->

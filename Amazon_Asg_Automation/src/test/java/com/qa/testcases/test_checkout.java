@@ -27,14 +27,14 @@ public class test_checkout extends TestBase{
 	}
 
 	@Test(priority=1)
-	public void LoginPageTetTitle()
+	public void LoginPageTeTitle()
 	{
 		String Title= ch_process.ValidateTitle();
 		Assert.assertEquals(Title, "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more");
 	}
 	
 	@Test(priority=2)
-	public void CRMLogoImageTest()
+	public void Logo_ImageTest()
 	{
 		Boolean tr= ch_process.imagelogo();
 		Assert.assertTrue(tr);
@@ -47,9 +47,9 @@ public class test_checkout extends TestBase{
 	}
 		
 	
-//	@AfterMethod()
-//	public void teardown()
-//	{
-//		driver.close();
-//	}
+	@AfterMethod()
+	public void teardown()
+	{
+		driver.close();
+	}
 }

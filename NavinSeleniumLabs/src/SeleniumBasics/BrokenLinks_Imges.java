@@ -26,7 +26,8 @@ public class BrokenLinks_Imges {
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDriver\\chromedriver_win32\\chromedriver.exe");
 	     driver=new ChromeDriver();
-		driver.get("https://tabbforum.com/");
+	     String URL="http://" + "lngstaging" + ":" +"e7f04ed4" + "@" + "lngstaging.wpengine.com";
+		 driver.get(URL);
 		//driver.findElement(By.xpath("//*[@id='interadsmain']/div[1]/div/a")).click();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

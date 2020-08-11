@@ -2,40 +2,66 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="110102" started-at="2019-10-14T16:02:04Z" finished-at="2019-10-14T16:03:55Z">
+  <suite name="Amazon Checkout Process" duration-ms="67165" started-at="2019-10-15T18:03:25Z" finished-at="2019-10-15T18:04:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="110102" started-at="2019-10-14T16:02:04Z" finished-at="2019-10-14T16:03:55Z">
+    <test name="First Test" duration-ms="67165" started-at="2019-10-15T18:03:25Z" finished-at="2019-10-15T18:04:33Z">
       <class name="com.qa.testcases.test_checkout">
-        <test-method status="PASS" signature="TestSetup()[pri:0, instance:com.qa.testcases.test_checkout@29774679]" name="TestSetup" is-config="true" duration-ms="46925" started-at="2019-10-14T21:32:04Z" finished-at="2019-10-14T21:32:51Z">
+        <test-method status="PASS" signature="TestSetup()[pri:0, instance:com.qa.testcases.test_checkout@3ffc5af1]" name="TestSetup" is-config="true" duration-ms="9586" started-at="2019-10-15T23:33:25Z" finished-at="2019-10-15T23:33:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSetup -->
-        <test-method status="FAIL" signature="LoginPageTetTitle()[pri:1, instance:com.qa.testcases.test_checkout@29774679]" name="LoginPageTetTitle" duration-ms="29" started-at="2019-10-14T21:32:51Z" finished-at="2019-10-14T21:32:51Z">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method status="PASS" signature="LoginPageTeTitle()[pri:1, instance:com.qa.testcases.test_checkout@3ffc5af1]" name="LoginPageTeTitle" duration-ms="48" started-at="2019-10-15T23:33:35Z" finished-at="2019-10-15T23:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTeTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.test_checkout@3ffc5af1]" name="teardown" is-config="true" duration-ms="2323" started-at="2019-10-15T23:33:35Z" finished-at="2019-10-15T23:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="TestSetup()[pri:0, instance:com.qa.testcases.test_checkout@3ffc5af1]" name="TestSetup" is-config="true" duration-ms="9291" started-at="2019-10-15T23:33:37Z" finished-at="2019-10-15T23:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method status="PASS" signature="Logo_ImageTest()[pri:2, instance:com.qa.testcases.test_checkout@3ffc5af1]" name="Logo_ImageTest" duration-ms="47" started-at="2019-10-15T23:33:47Z" finished-at="2019-10-15T23:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo_ImageTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.test_checkout@3ffc5af1]" name="teardown" is-config="true" duration-ms="2316" started-at="2019-10-15T23:33:47Z" finished-at="2019-10-15T23:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="TestSetup()[pri:0, instance:com.qa.testcases.test_checkout@3ffc5af1]" name="TestSetup" is-config="true" duration-ms="8370" started-at="2019-10-15T23:33:49Z" finished-at="2019-10-15T23:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSetup -->
+        <test-method status="FAIL" signature="searchItem()[pri:3, instance:com.qa.testcases.test_checkout@3ffc5af1]" name="searchItem" duration-ms="34956" started-at="2019-10-15T23:33:57Z" finished-at="2019-10-15T23:34:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='celwidget slot=SEARCH_RESULTS template=SEARCH_RESULTS widgetId=search-results index=0']//img[@class='s-image']"}
   (Session info: chrome=77.0.3865.120)
   (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10 milliseconds
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
 System info: host: 'ASEN-L-Rahul', ip: '192.168.2.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\RAHUL~1.PAW\AppData\Local\Temp\scoped_dir11256_1960}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=77.0.3865.120, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 52b6351b8973d7cca4eb92d29da5f148]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\RAHUL~1.PAW\AppData\Local\Temp\scoped_dir14092_21797}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=77.0.3865.120, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 5f426a90a1d225711bacb8ea6656475d
+*** Element info: {Using=xpath, value=//span[@class='celwidget slot=SEARCH_RESULTS template=SEARCH_RESULTS widgetId=search-results index=0']//img[@class='s-image']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='celwidget slot=SEARCH_RESULTS template=SEARCH_RESULTS widgetId=search-results index=0']//img[@class='s-image']"}
   (Session info: chrome=77.0.3865.120)
   (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10 milliseconds
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
 System info: host: 'ASEN-L-Rahul', ip: '192.168.2.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\RAHUL~1.PAW\AppData\Local\Temp\scoped_dir11256_1960}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=77.0.3865.120, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 52b6351b8973d7cca4eb92d29da5f148
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91), userDataDir=C:\Users\RAHUL~1.PAW\AppData\Local\Temp\scoped_dir14092_21797}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=77.0.3865.120, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 5f426a90a1d225711bacb8ea6656475d
+*** Element info: {Using=xpath, value=//span[@class='celwidget slot=SEARCH_RESULTS template=SEARCH_RESULTS widgetId=search-results index=0']//img[@class='s-image']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -43,10 +69,15 @@ Session ID: 52b6351b8973d7cca4eb92d29da5f148
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:659)
-	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:327)
-	at com.qa.pages.Checkout_process.ValidateTitle(Checkout_process.java:82)
-	at com.qa.testcases.test_checkout.LoginPageTetTitle(test_checkout.java:32)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:474)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at com.qa.pages.Checkout_process.browse(Checkout_process.java:102)
+	at com.qa.testcases.test_checkout.searchItem(test_checkout.java:46)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -74,27 +105,15 @@ Session ID: 52b6351b8973d7cca4eb92d29da5f148
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginPageTetTitle -->
-        <test-method status="PASS" signature="TestSetup()[pri:0, instance:com.qa.testcases.test_checkout@29774679]" name="TestSetup" is-config="true" duration-ms="9867" started-at="2019-10-14T21:32:52Z" finished-at="2019-10-14T21:33:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSetup -->
-        <test-method status="PASS" signature="CRMLogoImageTest()[pri:2, instance:com.qa.testcases.test_checkout@29774679]" name="CRMLogoImageTest" duration-ms="87" started-at="2019-10-14T21:33:01Z" finished-at="2019-10-14T21:33:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CRMLogoImageTest -->
-        <test-method status="PASS" signature="TestSetup()[pri:0, instance:com.qa.testcases.test_checkout@29774679]" name="TestSetup" is-config="true" duration-ms="11458" started-at="2019-10-14T21:33:01Z" finished-at="2019-10-14T21:33:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestSetup -->
-        <test-method status="PASS" signature="searchItem()[pri:3, instance:com.qa.testcases.test_checkout@29774679]" name="searchItem" duration-ms="41589" started-at="2019-10-14T21:33:13Z" finished-at="2019-10-14T21:33:55Z">
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItem -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.testcases.test_checkout@3ffc5af1]" name="teardown" is-config="true" duration-ms="174" started-at="2019-10-15T23:34:32Z" finished-at="2019-10-15T23:34:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.qa.testcases.test_checkout -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- First Test -->
+  </suite> <!-- Amazon Checkout Process -->
 </testng-results>

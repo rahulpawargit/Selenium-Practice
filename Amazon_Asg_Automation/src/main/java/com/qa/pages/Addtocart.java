@@ -9,7 +9,7 @@ import com.qa.base.TestBase;
 
 public class Addtocart extends TestBase
 {
-	
+//	Page Factory	
 	@FindBy(xpath="//a[@title='Add to Shopping Cart']")
 	WebElement addtocart;
 	
@@ -24,7 +24,7 @@ public class Addtocart extends TestBase
 	
 	
 	
-	//inilitilize the object
+//	inilitilize the object
 	
 	public Addtocart()
 	{
